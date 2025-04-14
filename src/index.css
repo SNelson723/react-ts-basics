@@ -33,9 +33,10 @@ header {
   align-items: center;
   border: 2px solid #f9a73b;
   padding: 1rem;
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: #475357;
   margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px #fccd90;
 }
 
 img {
