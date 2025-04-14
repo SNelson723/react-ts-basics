@@ -18,11 +18,11 @@ const NewGoal = ({ addGoal }: NewGoalProps) => {
     if (goal.current && summary.current) {
       const newGoal = goal.current.value.trim();
       const newSummary = summary.current.value.trim();
+      
       if (newGoal.length === 0 || newSummary.length === 0) return;
 
       addGoal(newGoal, newSummary);
-      goal.current.value = "";
-      summary.current.value = "";
+      e.currentTarget.reset();
     }
   };
 
